@@ -1,0 +1,19 @@
+{
+  "name": "style-combo",
+  "version": "0.0.1",
+  "description": "filter html content to combine script and link element",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandon/style-combo.git"
+  },
+  "author": "Sandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sandon/style-combo/issues"
+  },
+  "homepage": "https://github.com/Sandon/style-combo#readme"
+}
