@@ -2,23 +2,47 @@
 
 ## middle data
 ```
-allStyle = {
-    links: {
-        'https://www.demo.com/': [
-            'path/style1.css'
-        ]
-    }, 
-    scripts: {
-        posHeader: {
-            'https://www.demo.com/': [
-                'path/script1.js'
+let allStyle = {
+    links: [
+        {
+            groupName: 'group1',
+            origins: [
+                {
+                    origin: 'https://www.demo.com/',
+                    paths: [
+                        'path/style1.css'
+                    ]
+                }
             ]
         }
-        posFooter: {
-           'https://www.demo.com/': [
-               'path/script2.js'
-           ]
-       }
+    ]
+    scripts: {
+        posHeader: [
+            {
+                groupName: 'group2',
+                origins: [
+                    {
+                        origin: 'https://www.demo.com/',
+                        paths: [
+                            'path/script1.js'
+                        ]
+                    }
+                ]
+            }
+        ],
+        posFooter: [
+           {
+               groupName: 'group3',
+               origins: [
+                   {
+                       origin: 'https://www.demo.com/',
+                       paths: [
+                           'path/script2.js'
+                       ]
+                   }
+               ]
+           }
+       ]
     }
 }
 ```
